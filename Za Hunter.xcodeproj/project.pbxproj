@@ -13,6 +13,7 @@
 		E15F32CD26B47F6300019835 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15F32CC26B47F6300019835 /* Preview Assets.xcassets */; };
 		E15F32D826B47F6300019835 /* Za_HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F32D726B47F6300019835 /* Za_HunterTests.swift */; };
 		E15F32E326B47F6300019835 /* Za_HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F32E226B47F6300019835 /* Za_HunterUITests.swift */; };
+		E15F32F126B4811B00019835 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F32F026B4811B00019835 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E15F32DE26B47F6300019835 /* Za HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Za HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15F32E226B47F6300019835 /* Za_HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Za_HunterUITests.swift; sourceTree = "<group>"; };
 		E15F32E426B47F6300019835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15F32F026B4811B00019835 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				E15F32C526B47F6200019835 /* Za_HunterApp.swift */,
 				E15F32C726B47F6200019835 /* ContentView.swift */,
+				E15F32F026B4811B00019835 /* LocationManager.swift */,
 				E15F32C926B47F6300019835 /* Assets.xcassets */,
 				E15F32CE26B47F6300019835 /* Info.plist */,
 				E15F32CB26B47F6300019835 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				E15F32C826B47F6200019835 /* ContentView.swift in Sources */,
 				E15F32C626B47F6200019835 /* Za_HunterApp.swift in Sources */,
+				E15F32F126B4811B00019835 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
